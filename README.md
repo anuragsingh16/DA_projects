@@ -97,8 +97,14 @@ CREATE TABLE InvoiceItems (
 Use SQL Server Import Wizard or Python `pyodbc`/`sqlalchemy` to push cleaned data into respective tables.
 
 ---
+## STEEP: 3. Upload Cleaned Data to SQL Server using Python
+Established connection using pyodbc.
 
-## 🔍 Step 3: Connecting SQL Server to Power BI
+Inserted cleaned data from pandas into the respective SQL Server tables.
+
+Used parameterized SQL INSERT statements for secure, efficient bulk upload.
+
+## 🔍 Step 4: Connecting SQL Server to Power BI
 
 ### Steps:
 
@@ -114,7 +120,7 @@ Use SQL Server Import Wizard or Python `pyodbc`/`sqlalchemy` to push cleaned dat
 
 ---
 
-## 📊 Step 4: Building the Dashboard Visualizations
+## 📊 Step 5: Building the Dashboard Visualizations
 
 ### ✅ 1) Monthly Sales Trend
 
